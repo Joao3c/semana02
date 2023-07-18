@@ -1,12 +1,13 @@
 package semana02;
 
-import java.util.Scanner;
 import javax.swing.JOptionPane;
+import view.PrimeiraInterface;
 
 public class Semana02 {
 
     public static void main(String[] args) {
-        metodoJoption();
+        new PrimeiraInterface(); 
+
 
     }
 
@@ -25,7 +26,7 @@ public class Semana02 {
 
     }
 
-//    public static void metodoScanner() {
+   public static void metodoScanner() {
 //
 //        String nomeAlunos[] = new String[5];
 //        boolean situacaoAlunos[] = new boolean[5];
