@@ -40,9 +40,10 @@ public class PrimeiraInterface {
          });
          
          janela.add(input);
-         janela.add(botao);
          janela.add(texto);
-         
+         janela.add(botao);
+        
+        
          janela.setVisible(true);
     }
     
